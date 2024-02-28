@@ -47,16 +47,19 @@ while True:
         print(apartments)
         # https://www.w3schools.com/python/python_lists_access.asp
         pass
+        
     elif choice == '2':
         apartments.sort(key = Hprice)
         print(apartments[:10])
         # https://www.w3schools.com/python/python_lists_sort.asp
         pass
+        
     elif choice == '3':
         apartments.sort(key = Lprice)
         print(apartments[-10:])
         # https://www.w3schools.com/python/python_lists_sort.asp
         pass
+        
     elif choice == '4':
         Ch = input("Cheaper than what price, apartments are you searching for?")
         newlistCh = []
@@ -69,6 +72,7 @@ while True:
         # https://www.w3schools.com/python/python_lists_comprehension.asp
         # https://www.w3schools.com/python/python_lists_access.asp - Range of Indexes
         pass
+        
     elif choice == '5':
         Ex = input("More expencive than what price, apartments are you searching for?")
         newlistEx = []
@@ -85,6 +89,7 @@ while True:
     elif choice == '6':
         print("Error - ???")
         pass
+        
     elif choice == '7':
         print("Exiting")
         break
